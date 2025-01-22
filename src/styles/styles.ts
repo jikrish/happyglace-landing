@@ -2,6 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
 
+ :root {
+    --main-color: rgb(214,111,145);
+    --secondary-color: #2ecc71;
+  }
+
     @font-face {
         font-family: "Motiva Sans Light";
         src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
