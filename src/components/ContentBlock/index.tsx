@@ -1,10 +1,10 @@
-import { Row, Col } from "antd";
-import { Fade } from "react-awesome-reveal";
-import { withTranslation } from "react-i18next";
+import { Row, Col } from 'antd';
+import { Fade } from 'react-awesome-reveal';
+import { withTranslation } from 'react-i18next';
 
-import { ContentBlockProps } from "./types";
-import { Button } from "../../common/Button";
-import { SvgIcon } from "../../common/SvgIcon";
+import { ContentBlockProps } from './types';
+import { Button } from '../../common/Button';
+import { SvgIcon } from '../../common/SvgIcon';
 import {
   ContentSection,
   Content,
@@ -14,7 +14,7 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
-} from "./styles";
+} from './styles';
 
 const ContentBlock = ({
   icon,
@@ -29,7 +29,7 @@ const ContentBlock = ({
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
@@ -49,9 +49,9 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              {direction === "right" ? (
+              {direction === 'right' ? (
                 <ButtonWrapper>
-                  {typeof button === "object" &&
+                  {typeof button === 'object' &&
                     button.map(
                       (
                         item: {
@@ -64,7 +64,7 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => scrollTo('about')}
                           >
                             {t(item.title)}
                           </Button>
@@ -75,7 +75,7 @@ const ContentBlock = ({
               ) : (
                 <ServiceWrapper>
                   <Row justify="space-between">
-                    {typeof section === "object" &&
+                    {/* {typeof section === "object" &&
                       section.map(
                         (
                           item: {
@@ -97,7 +97,7 @@ const ContentBlock = ({
                             </Col>
                           );
                         }
-                      )}
+                      )} */}
                   </Row>
                 </ServiceWrapper>
               )}
