@@ -1,9 +1,9 @@
-import { Row, Col } from "antd";
-import { withTranslation, TFunction } from "react-i18next";
-import { SvgIcon } from "../../common/SvgIcon";
-import Container from "../../common/Container";
+import { Row, Col } from 'antd';
+import { withTranslation, TFunction } from 'react-i18next';
+import { SvgIcon } from '../../common/SvgIcon';
+import Container from '../../common/Container';
 
-import i18n from "i18next";
+import i18n from 'i18next';
 import {
   FooterSection,
   Title,
@@ -19,7 +19,7 @@ import {
   Label,
   LanguageSwitch,
   LanguageSwitchContainer,
-} from "./styles";
+} from './styles';
 
 interface SocialLinkProps {
   href: string;
@@ -51,8 +51,8 @@ const Footer = ({ t }: { t: TFunction }) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>{t('Contact')}</Language>
+              <Large to="/">{t('Tell us everything')}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
@@ -61,10 +61,10 @@ const Footer = ({ t }: { t: TFunction }) => {
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Products")}</Large> 
+              <Title>{t('Company')}</Title>
+              <Large to="/">{t('About')}</Large>
+              <Large to="/blogs">{t('Blog')}</Large>
+              <Large to="/products">{t('Products')}</Large>
             </Col>
           </Row>
         </Container>
@@ -74,7 +74,7 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row
             justify="space-between"
             align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: '3rem' }}
           >
             <NavLink to="/">
               <LogoContainer>
