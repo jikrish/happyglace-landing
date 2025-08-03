@@ -55,6 +55,14 @@ export const MinPara = styled('p')`
   font-size: 13px;
 `;
 
+export const Subtitle = styled('span')`
+  font-size: 18px;
+  color: #666;
+  font-weight: 300;
+  display: block;
+  margin-top: 0.5rem;
+`;
+
 export const ButtonWrapper = styled('div')`
   display: flex;
   justify-content: space-between;

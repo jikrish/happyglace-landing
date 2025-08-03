@@ -93,7 +93,8 @@ const Footer = ({ t }: { t: TFunction }) => {
                 </LogoContainer>
               </NavLink>
               <div style={{ marginTop: '10px', fontSize: '14px', color: '#666', textAlign: 'center' }}>
-                Happy Glace Giftings - (A brand of Krishna Sai Enterprises)
+                Happy Glace Giftings<br />
+                <span style={{ fontSize: '12px', color: '#999' }}>(A brand of Krishna Sai Enterprises)</span>
               </div>
             </div>
           </Row>
