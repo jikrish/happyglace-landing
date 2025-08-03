@@ -31,6 +31,13 @@ const Footer = ({ t }: { t: TFunction }) => {
     i18n.changeLanguage(language);
   };
 
+  const openWhatsAppChat = () => {
+    const phoneNumber = "+919176847236"; // Same placeholder number as contact
+    const message = encodeURIComponent("Hello! I'd like to get in touch with you.");
+    const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
@@ -56,9 +63,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:happyglace.shop@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
+              <Chat onClick={openWhatsAppChat}>{t(`Let's Chat`)}</Chat>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t('Company')}</Title>
