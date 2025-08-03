@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/landy-react-template",
+  "homepage": "https://happyglace.com",
   "dependencies": {
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.68",
