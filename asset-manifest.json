@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/happyglace-landing/static/css/main.442451ae.css",
-    "main.js": "/happyglace-landing/static/js/main.1bdb98e8.js",
+    "main.js": "/happyglace-landing/static/js/main.c45c7fe7.js",
     "static/css/769.1ff84bb7.chunk.css": "/happyglace-landing/static/css/769.1ff84bb7.chunk.css",
     "static/js/769.89e47bad.chunk.js": "/happyglace-landing/static/js/769.89e47bad.chunk.js",
     "static/css/800.1ff84bb7.chunk.css": "/happyglace-landing/static/css/800.1ff84bb7.chunk.css",
     "static/js/800.11d29fab.chunk.js": "/happyglace-landing/static/js/800.11d29fab.chunk.js",
     "static/js/150.23678673.chunk.js": "/happyglace-landing/static/js/150.23678673.chunk.js",
     "static/css/829.f5228d6c.chunk.css": "/happyglace-landing/static/css/829.f5228d6c.chunk.css",
-    "static/js/829.8933ab28.chunk.js": "/happyglace-landing/static/js/829.8933ab28.chunk.js",
+    "static/js/829.ee2b1494.chunk.js": "/happyglace-landing/static/js/829.ee2b1494.chunk.js",
     "static/css/706.f5228d6c.chunk.css": "/happyglace-landing/static/css/706.f5228d6c.chunk.css",
     "static/js/706.00efe663.chunk.js": "/happyglace-landing/static/js/706.00efe663.chunk.js",
     "static/js/349.46b7a91a.chunk.js": "/happyglace-landing/static/js/349.46b7a91a.chunk.js",
@@ -18,14 +18,14 @@
     "static/js/614.73b6f128.chunk.js": "/happyglace-landing/static/js/614.73b6f128.chunk.js",
     "index.html": "/happyglace-landing/index.html",
     "main.442451ae.css.map": "/happyglace-landing/static/css/main.442451ae.css.map",
-    "main.1bdb98e8.js.map": "/happyglace-landing/static/js/main.1bdb98e8.js.map",
+    "main.c45c7fe7.js.map": "/happyglace-landing/static/js/main.c45c7fe7.js.map",
     "769.1ff84bb7.chunk.css.map": "/happyglace-landing/static/css/769.1ff84bb7.chunk.css.map",
     "769.89e47bad.chunk.js.map": "/happyglace-landing/static/js/769.89e47bad.chunk.js.map",
     "800.1ff84bb7.chunk.css.map": "/happyglace-landing/static/css/800.1ff84bb7.chunk.css.map",
     "800.11d29fab.chunk.js.map": "/happyglace-landing/static/js/800.11d29fab.chunk.js.map",
     "150.23678673.chunk.js.map": "/happyglace-landing/static/js/150.23678673.chunk.js.map",
     "829.f5228d6c.chunk.css.map": "/happyglace-landing/static/css/829.f5228d6c.chunk.css.map",
-    "829.8933ab28.chunk.js.map": "/happyglace-landing/static/js/829.8933ab28.chunk.js.map",
+    "829.ee2b1494.chunk.js.map": "/happyglace-landing/static/js/829.ee2b1494.chunk.js.map",
     "706.f5228d6c.chunk.css.map": "/happyglace-landing/static/css/706.f5228d6c.chunk.css.map",
     "706.00efe663.chunk.js.map": "/happyglace-landing/static/js/706.00efe663.chunk.js.map",
     "349.46b7a91a.chunk.js.map": "/happyglace-landing/static/js/349.46b7a91a.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.442451ae.css",
-    "static/js/main.1bdb98e8.js"
+    "static/js/main.c45c7fe7.js"
   ]
 }
