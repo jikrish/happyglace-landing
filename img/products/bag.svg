@@ -1,0 +1,20 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  <!-- Bag body -->
+  <path d="M110 80 L190 80 L200 85 L200 150 Q200 160 190 160 L110 160 Q100 160 100 150 L100 85 L110 80 Z" fill="#d4a574" stroke="#a0522d" stroke-width="2"/>
+  <!-- Bag handles -->
+  <path d="M125 80 Q125 65 140 65 Q155 65 155 80" fill="none" stroke="#a0522d" stroke-width="3"/>
+  <path d="M145 80 Q145 65 160 65 Q175 65 175 80" fill="none" stroke="#a0522d" stroke-width="3"/>
+  <!-- Jute texture lines -->
+  <line x1="110" y1="90" x2="190" y2="90" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="100" x2="190" y2="100" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="110" x2="190" y2="110" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="120" x2="190" y2="120" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="130" x2="190" y2="130" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="140" x2="190" y2="140" stroke="#a0522d" stroke-width="0.5" opacity="0.5"/>
+  <!-- Logo area -->
+  <rect x="130" y="110" width="40" height="20" rx="3" fill="#ffffff" opacity="0.8"/>
+  <text x="150" y="125" text-anchor="middle" fill="#a0522d" font-family="Arial, sans-serif" font-size="8" font-weight="bold">ECO</text>
+  <!-- Title -->
+  <text x="150" y="185" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Jute Bag</text>
+</svg>
