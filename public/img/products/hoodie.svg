@@ -1,0 +1,16 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  <!-- Hoodie outline -->
+  <path d="M110 70 L110 55 Q110 45 120 45 L180 45 Q190 45 190 55 L190 70 L210 80 L210 100 L200 105 L200 160 Q200 170 190 170 L110 170 Q100 170 100 160 L100 105 L90 100 L90 80 L110 70 Z" fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  <!-- Hood -->
+  <path d="M120 45 Q150 25 180 45" fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  <!-- Kangaroo pocket -->
+  <rect x="130" y="110" width="40" height="25" rx="3" fill="#495057"/>
+  <!-- Drawstrings -->
+  <circle cx="140" cy="55" r="2" fill="#495057"/>
+  <circle cx="160" cy="55" r="2" fill="#495057"/>
+  <line x1="140" y1="57" x2="135" y2="70" stroke="#495057" stroke-width="2"/>
+  <line x1="160" y1="57" x2="165" y2="70" stroke="#495057" stroke-width="2"/>
+  <!-- Title -->
+  <text x="150" y="185" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Hoodie</text>
+</svg>

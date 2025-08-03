@@ -1,0 +1,15 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  <!-- Pen body -->
+  <rect x="80" y="90" width="140" height="20" rx="10" fill="#2c3e50"/>
+  <!-- Pen tip -->
+  <path d="M220 95 L240 100 L220 105 Z" fill="#34495e"/>
+  <!-- Pen clip -->
+  <rect x="75" y="85" width="3" height="30" rx="1.5" fill="#7f8c8d"/>
+  <path d="M75 85 Q70 80 75 75 Q80 80 75 85" fill="#7f8c8d"/>
+  <!-- Brand area -->
+  <rect x="120" y="95" width="60" height="10" rx="2" fill="#ecf0f1"/>
+  <text x="150" y="103" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="8">LUXURY</text>
+  <!-- Title -->
+  <text x="150" y="185" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Luxury Pen</text>
+</svg>
