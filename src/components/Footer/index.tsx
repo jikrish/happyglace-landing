@@ -81,16 +81,21 @@ const Footer = ({ t }: { t: TFunction }) => {
             align="middle"
             style={{ paddingTop: '3rem' }}
           >
-            <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
-            </NavLink>
+            <div>
+              <NavLink to="/">
+                <LogoContainer>
+                  <SvgIcon
+                    src="logo.svg"
+                    aria-label="homepage"
+                    width="101px"
+                    height="64px"
+                  />
+                </LogoContainer>
+              </NavLink>
+              <div style={{ marginTop: '10px', fontSize: '14px', color: '#666', textAlign: 'center' }}>
+                Happy Glace Giftings - (A brand of Krishna Sai Enterprises)
+              </div>
+            </div>
           </Row>
         </Container>
       </Extra>
